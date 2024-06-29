@@ -5,7 +5,7 @@
 
 .general-container {
   display: flex;
-  width: 250px;
+  width: 350px;
   display: flex;
   justify-content: space-between;
   background-color: #1e1e1e;
@@ -35,17 +35,34 @@
 }
 
 .btn-follow {
-  width: 75px;
+  width: 120px;
   height: 35px;
   border-radius: 20px;
   font-weight: bold;
   cursor: pointer;
   border: none;
+  white-space: nowrap;
 }
 
 .btn-follow:hover {
+  background-color: #ff000081;
+  color: white;
+  border: 3px solid white;
+  transition: 0.1s ease-in;
+}
+
+.btn-unfollow {
+  width: 120px;
+  height: 35px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: 0.1s ease-in;
+}
+
+.btn-unfollow:hover {
   background-color: #1e1e1e;
   color: white;
   border: 3px solid white;
-  transition: ease-in 0.1s;
 }
